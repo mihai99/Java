@@ -23,13 +23,18 @@ public class Problem {
         System.out.println();
         Knapsack knapsack = knapsackBuilder.Build(new DynamicProgrammingAlgorithm());
         knapsack.showItemsInKnapsack();
-/*
+
         System.out.println();
+        System.out.println("Generated problem: ");
         Knapsack.Builder kn2 = KnapsackGenerator.generateKnapsackBuilder();
         kn2.showInstance();
+        System.out.println();
+        System.out.println("with greedy: ");
         kn2.Build(new GreedyAlgorithm()).showItemsInKnapsack();
+        System.out.println();
+        System.out.println("with dynamic programming: ");
         kn2.Build(new DynamicProgrammingAlgorithm()).showItemsInKnapsack();
 
- */
+
     }
 }
